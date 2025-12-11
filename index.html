@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+
+    <!-- SEO Metadata -->
+    <title>World Time Zone Clock | Real-Time Global Dashboard | doodax.com</title>
+    <meta name="description" content="The ultimate World Time Zone Clock. Track live time in New York, London, Tokyo, and thousands of cities. A professional dashboard for remote teams, traders, and travelers." />
+    <meta name="keywords" content="world clock, time zone converter, current time, time in new york, time in tokyo, time in london, live clock, global time, remote work tool, forex clock" />
+    <meta name="author" content="HSINI MOHAMED" />
+    <meta name="robots" content="index, follow" />
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://doodax.com/" />
+    <meta property="og:title" content="World Time Zone Clock | Real-Time Global Dashboard" />
+    <meta property="og:description" content="Track multiple timezones effortlessly with a sleek, real-time dashboard. Perfect for remote teams, travelers, and market traders." />
+    <meta property="og:image" content="https://doodax.com/og-image.png" />
+    <meta property="og:site_name" content="Doodax World Clock" />
+
+    <!-- Twitter Card -->
+    <meta property="twitter:card" content="summary_large_image" />
+    <meta property="twitter:url" content="https://doodax.com/" />
+    <meta property="twitter:title" content="World Time Zone Clock | Real-Time Global Dashboard" />
+    <meta property="twitter:description" content="Track multiple timezones effortlessly with a sleek, real-time dashboard. Perfect for remote teams, travelers, and market traders." />
+    <meta property="twitter:image" content="https://doodax.com/og-image.png" />
+    
+    <!-- JSON-LD Schema -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "WebApplication",
+      "name": "World Time Zone Clock",
+      "url": "https://doodax.com/",
+      "applicationCategory": "UtilityApplication",
+      "operatingSystem": "Any",
+      "description": "A sleek and modern world clock application that displays the current time in various cities around the globe.",
+      "author": {
+          "@type": "Person",
+          "name": "HSINI MOHAMED",
+          "url": "https://github.com/hsinidev"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "0",
+        "priceCurrency": "USD"
+      },
+      "potentialAction": {
+        "@type": "SearchAction",
+        "target": {
+          "@type": "EntryPoint",
+          "urlTemplate": "https://doodax.com/search?zone={search_term_string}"
+        },
+        "query-input": "required name=search_term_string"
+      }
+    }
+    </script>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+<script type="importmap">
+{
+  "imports": {
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "react/": "https://aistudiocdn.com/react@^19.2.0/"
+  }
+}
+</script>
+<style>
+  /* Animated Galaxy Background */
+  body {
+    background-color: #0f172a;
+    min-height: 100vh;
+    overflow-x: hidden;
+  }
+  
+  .galaxy-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background: radial-gradient(ellipse at bottom, #1b2735 0%, #090a0f 100%);
+    overflow: hidden;
+  }
+
+  .stars {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: 
+      120px 50px #fff, 
+      1200px 300px #fff, 
+      600px 700px #FFF, 
+      300px 200px #FFF, 
+      900px 100px #FFF, 
+      250px 800px #FFF, 
+      800px 500px #FFF;
+    animation: animStar 100s linear infinite;
+  }
+  
+  .stars::after {
+    content: " ";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: transparent;
+    box-shadow: 
+      120px 50px #fff, 
+      1200px 300px #fff, 
+      600px 700px #FFF, 
+      300px 200px #FFF, 
+      900px 100px #FFF, 
+      250px 800px #FFF, 
+      800px 500px #FFF;
+  }
+
+  .nebula {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: 
+      radial-gradient(circle at 50% 50%, rgba(76, 29, 149, 0.3), transparent 60%),
+      radial-gradient(circle at 80% 20%, rgba(13, 148, 136, 0.2), transparent 50%),
+      radial-gradient(circle at 20% 80%, rgba(37, 99, 235, 0.2), transparent 50%);
+    filter: blur(60px);
+    animation: rotateNebula 120s linear infinite;
+    opacity: 0.8;
+  }
+
+  @keyframes animStar {
+    from { transform: translateY(0px); }
+    to { transform: translateY(-2000px); }
+  }
+
+  @keyframes rotateNebula {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+  }
+
+  /* Custom Scrollbar */
+  ::-webkit-scrollbar {
+    width: 8px;
+  }
+  ::-webkit-scrollbar-track {
+    background: #111827; 
+  }
+  ::-webkit-scrollbar-thumb {
+    background: #374151; 
+    border-radius: 4px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: #4b5563; 
+  }
+</style>
+<link rel="stylesheet" href="/index.css">
+</head>
+<body class="text-white font-sans antialiased selection:bg-teal-500 selection:text-white">
+    <div class="galaxy-bg">
+        <div class="stars"></div>
+        <div class="nebula"></div>
+    </div>
+    <div id="root" class="relative z-10"></div>
+    <script type="module" src="/index.tsx"></script>
+</body>
+</html>

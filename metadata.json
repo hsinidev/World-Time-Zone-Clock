@@ -1,0 +1,5 @@
+{
+  "name": "World Time Zone Clock",
+  "description": "A sleek and modern world clock application that displays the current time in various cities around the globe. Users can add and remove timezones to create a personalized dashboard.",
+  "requestFramePermissions": []
+}
