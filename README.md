@@ -1,18 +1,22 @@
 <div align="center">
-# 🚀 World Time Zone Clock
-### *Modern, High-Performance JavaScript Solution & Developer Suite*
 
-<p align="center">
-  [![Architect](https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white)](https://hsini.dev)
-  [![Portfolio](https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white)](https://hsini.dev)
-  [![Language](https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge)](https://github.com/hsinidev)
-  [![Framework](https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge)](https://github.com/hsinidev)
-  [![License](https://img.shields.io/badge/License-MIT-green?style=for-the-badge)](LICENSE)
-</p>
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=0,2,2,5,30&height=180&section=header&text=World%20Time%20Zone%20Clock&fontSize=42&fontColor=fff&animation=fadeIn&fontAlignY=38" width="100%" style="max-width: 100%; border-radius: 12px; margin-bottom: 20px;" alt="World Time Zone Clock Header Banner" />
+
+  <h1>🚀 World Time Zone Clock</h1>
+  <p><em>Modern, High-Performance JavaScript Solution & Developer Suite</em></p>
+
+  <p align="center">
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Architect-Hsini%20Mohamed-0055ff?style=for-the-badge&logo=github&logoColor=white" alt="Architect: Hsini Mohamed" /></a>
+    <a href="https://hsini.dev"><img src="https://img.shields.io/badge/Portfolio-hsini.dev-00c853?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio: hsini.dev" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Language-TypeScript-3178C6?style=for-the-badge" alt="Language: TypeScript" /></a>
+    <a href="https://github.com/hsinidev"><img src="https://img.shields.io/badge/Framework-JavaScript-6366f1?style=for-the-badge" alt="Framework: JavaScript" /></a>
+    <a href="https://github.com/hsinidev/World-Time-Zone-Clock"><img src="https://img.shields.io/badge/License-MIT-green?style=for-the-badge" alt="License: MIT" /></a>
+  </p>
 
 </div>
 
 ---
+
 ## 🌟 Executive Overview
 
 **World Time Zone Clock** is a production-grade **TypeScript** platform engineered for high reliability, clean architectural separation, and frictionless developer workflow.
@@ -25,6 +29,7 @@
 - **Production Ready**: Built-in error resilience, validation, and structured logging.
 
 ---
+
 ## 🏗️ Architecture & Technology Stack
 
 - **Primary Language**: `TypeScript`
@@ -32,88 +37,6 @@
 - **Design Pattern**: Modular Clean Architecture / Domain-Driven Design
 - **License**: MIT Open Source Attribution
 
-## 📖 Deep-Dive Technical Documentation
-
-# 🌍 World Time Zone Clock - Professional Dashboard
-
-
-A high-performance, SEO-optimized web application designed for professionals, travelers, and remote teams. This application provides real-time synchronization of global time zones with a sleek, modern, galaxy-themed interface.
-
-## ✨ Key Features
-
-*   **Real-Time Synchronization**: Accurate time tracking for thousands of cities using the IANA timezone database.
-*   **Immersive UI**: Fully responsive design with an animated, multi-colored galaxy background using pure CSS.
-*   **Smart Search**: Intelligent autocomplete search system to find any timezone instantly.
-*   **SEO Optimized**: Fully integrated Schema.org JSON-LD, Open Graph tags, and semantic HTML structure for maximum search engine visibility.
-*   **Interactive Dashboard**: Add, remove, and manage clocks with a user-friendly drag-and-drop feel.
-*   **Legal Compliance**: dedicated modals for Privacy Policy, Terms of Service, and DMCA compliance.
-
-## 📂 Project Structure
-
-```bash
-.
-├── components/          # Reusable React components
-│   ├── AddClockForm.tsx # Search and add functionality
-│   ├── Clock.tsx        # Individual clock card component
-│   ├── InfoModal.tsx    # Accessible modal system
-│   └── SeoArticle.tsx   # Long-form content component
-├── data/               
-│   ├── legal.ts         # Static content for legal pages
-│   └── timezones.ts     # Default timezone configuration
-├── services/
-│   └── timeService.ts   # API integration logic (timeapi.io)
-├── public/              # Static assets
-│   ├── favicon.svg
-│   ├── robots.txt
-│   └── sitemap.xml
-├── types.ts             # TypeScript interface definitions
-├── App.tsx              # Main application entry point
-├── index.html           # HTML template with styles & metadata
-└── README.md            # Project documentation
-```
-
-## 🛠️ Technology Stack
-
-*   **Frontend Library**: React 19
-*   **Language**: TypeScript
-*   **Styling**: Tailwind CSS (Utility-first framework)
-*   **Icons**: FontAwesome 6
-*   **Data Source**: timeapi.io
-
-## 🚀 Getting Started
-
-1.  **Clone the repository:**
-    ```bash
-    git clone https://github.com/hsinidev/world-clock.git
-    ```
-
-2.  **Install dependencies:**
-    ```bash
-    npm install
-    ```
-
-3.  **Run development server:**
-    ```bash
-    npm run dev
-    ```
-
-4.  **Build for production:**
-    ```bash
-    npm run build
-    ```
-
-
-
----
-
-<div align="center">
-  <p>Powered by <strong>HSINI MOHAMED</strong></p>
-  <p>
-    <a href="https://github.com/hsinidev">GitHub Profile</a>
-  </p>
-</div>
-
----
 ## 🚀 Quick Start & Installation
 
 ### 1. Clone the Repository
